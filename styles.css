@@ -41,7 +41,8 @@
   }
   
   .div2 {
-    background: #6a9ac4;
+    background: #25547c;
+    color: #ffffff;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -56,7 +57,7 @@ width:100%;
   
   }
   .left{
-    padding: 30px;
+    padding: 50px;
   }
   .right{
       display:flex;
@@ -227,8 +228,8 @@ width:100%;
     filter: drop-shadow(2px 2px 3px #0003);
     color: #fff;
     font-size: clamp(16px, 1.6vw, 18px);
-    display: block;
-    padding: 12px 20px;
+    display: inline-block;
+    padding: 12px 40px;
     margin: 2px auto;
     border: none;
     border-radius: 4px;
@@ -272,7 +273,7 @@ width:100%;
   
   /*FAQs*/
 .div5{
-    padding: 30px;
+    padding: 50px;
 }
   /*animation for chevron*/
   .caret{
@@ -327,4 +328,10 @@ width:100%;
   @keyframes sweep {
     0%    {opacity: 0; margin-left: -10px}
     100%  {opacity: 1; margin-left: 0px}
+  }
+
+  .div5 span {
+    text-transform: uppercase;
+    color:#426691;
+    font-weight: bold;
   }
