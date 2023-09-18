@@ -41,7 +41,7 @@
   }
   
   .div2 {
-    background: #25547c;
+    background:#426691;
     color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -265,10 +265,7 @@ width:100%;
       padding-top: 30px;
     }
     
-    img {
-      width: 38px;
-      height: 38px;
-    }
+
   }
   
   /*FAQs*/
