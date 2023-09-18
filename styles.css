@@ -8,7 +8,13 @@
       text-decoration: none !important;
       color:#0079c1 !important;
   }
-
+  a:hover{
+    color:rgb(217, 119, 6) !important;
+    transition: .2s ;
+  }
+  .div5 h2{
+    color:rgb(217, 119, 6);
+  }
   .div4 h2{
       color: #ffffff !important;
   }
@@ -32,7 +38,7 @@
     margin: 0 auto;
   }
   .div1 {
-    height: 400px;
+    min-height: 360px;
     background:#ffffff;
     display: flex;
     justify-content: center;
@@ -259,6 +265,7 @@ width:100%;
   
   .submit-btn:hover {
     transform: scale(1.1, 1.1);
+    background-color: rgb(217, 119, 6);
   }
   
   .submit-btn:active {
