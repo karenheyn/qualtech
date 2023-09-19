@@ -10,8 +10,6 @@ details.forEach((targetDetail) => {
   });
 });
 
-const message = document.getElementById("body").value;
-const subject = document.getElementById("subject").value;
 const button = document.getElementById("submit");
 
 function sendMail() {
