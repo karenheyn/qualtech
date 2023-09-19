@@ -71,20 +71,20 @@
           <div class="contact-form-wrapper">
             <h5>Call <a href="tel:267-602-0493">267-602-0493</a> to book your appointment with our certified technicians</h5>
             <br>
-            <form action="mailto:karenheyn@gmail.com">
+            <form id="#form">
               <div class="form-item">
                 <input type="text" name="sender" required>
                 <label>Name:</label>
               </div>
               <div class="form-item">
-                <input type="text" name="subject" required>
+                <input id="subject" type="text" name="subject" required>
                 <label>Subject:</label>
               </div>
               <div class="form-item">
-                <textarea class="" name="message" required></textarea>
+                <textarea id="body" class="text" name="message" required></textarea>
                 <label>Message:</label>
               </div>
-              <button class="submit-btn">Send</button>  
+              <button onclick="sendMail()" id="submit" class="submit-btn" type="submit">Send</button>  
             </form>
           </div>
         </div>
