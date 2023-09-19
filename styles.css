@@ -363,6 +363,16 @@ width:100%;
     padding:10px;
     
   }
+  footer{
+    text-align: center;
+    background:#6a9ac3;
+    padding:10px;
+    color:#ffffff;
+  }
+  footer p{
+    margin: 0 auto;
+  }
+
 
   @media screen and (min-width: 600px) {  
     .div3{
