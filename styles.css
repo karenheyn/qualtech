@@ -28,7 +28,8 @@
 
   }
 .nav2 span{
-  float:left
+  position:absolute;
+  padding: 20px;
 }
 
   ul {
