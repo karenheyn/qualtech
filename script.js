@@ -37,12 +37,13 @@ close_btn.addEventListener("click", (e) => {
   close();
 });
 
-blank.addEventListener("click", (e) => {
-  close();
-});
 
 Array.from(drawer.querySelectorAll("a")).forEach((element) => {
   element.addEventListener("click", () => {
     close();
   });
+});
+menu.addEventListener('click', (e) => {
+  menu.classList.remove("blur");
+  drawer.classList.remove("drawer-visible");
 });
