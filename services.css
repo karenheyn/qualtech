@@ -1,0 +1,9 @@
+.div2 {
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.div2 p {
+    text-align: center;
+}
