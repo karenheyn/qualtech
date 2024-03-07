@@ -2,8 +2,39 @@
     justify-content: center;
     align-items: center;
     padding: 30px;
+
 }
 
 .div2 p {
     text-align: center;
+}
+
+
+.appliances {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.appliances div {
+    text-align: center;
+    flex-basis: 300px;
+    margin: 30px;
+    background-color: rgb(217, 119, 6);
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.appliances a {
+    color: #ffffff !important;
+    height: 100%;
+    width: 100%;
+}
+
+.appliances div:hover {
+    background-color: rgb(184, 101, 6);
 }
