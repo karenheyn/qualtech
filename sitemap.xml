@@ -1,48 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>http://www.qualtechappliance.com/tel:267-602-0493</loc>
-  <lastmod>2024-03-06</lastmod>
+	<loc>https://www.qualtechappliance.com/</loc>
+	<lastmod>2024-03-12T00:46:13+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://www.qualtechappliance.com/services.html</loc>
-  <lastmod>2024-03-06</lastmod>
+	<loc>https://www.qualtechappliance.com/services.html</loc>
+	<lastmod>2024-03-12T00:46:13+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://www.qualtechappliance.com/</loc>
-  <lastmod>2024-03-06</lastmod>
+	<loc>https://www.qualtechappliance.com/services/dryer.html</loc>
+	<lastmod>2024-03-12T00:46:13+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://www.qualtechappliance.com/index.html</loc>
-  <lastmod>2024-03-06</lastmod>
+	<loc>https://www.qualtechappliance.com/services/washer.html</loc>
+	<lastmod>2024-03-12T00:46:13+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://www.qualtechappliance.com/dryer</loc>
-  <lastmod>2024-03-06</lastmod>
+	<loc>https://www.qualtechappliance.com/services/stoves&amp;ranges.html</loc>
+	<lastmod>2024-03-12T00:46:13+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://www.qualtechappliance.com/washer</loc>
-  <lastmod>2024-03-06</lastmod>
+	<loc>https://www.qualtechappliance.com/services/refridgerator.html</loc>
+	<lastmod>2024-03-12T00:46:13+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://www.qualtechappliance.com/rangesandstoves</loc>
-  <lastmod>2024-03-06</lastmod>
+	<loc>https://www.qualtechappliance.com/services/dishwasher.html</loc>
+	<lastmod>2024-03-12T00:46:13+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
-<url>
-  <loc>http://www.qualtechappliance.com/refridgerator</loc>
-  <lastmod>2024-03-06</lastmod>
-</url>
-<url>
-  <loc>http://www.qualtechappliance.com/dishwasher</loc>
-  <lastmod>2024-03-06</lastmod>
-</url>
-</urlset>
-
 </urlset>
