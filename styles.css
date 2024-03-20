@@ -570,3 +570,10 @@ footer p {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+ol li{
+  list-style: disclosure-closed;
+  line-height: 2rem;
+}
+.serviceh1{
+  text-align: center;
+}
