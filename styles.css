@@ -169,13 +169,13 @@ header {
 
 /*END NAV*/
 
-ul {
+/* ul {
   display: flex;
   justify-content: space-around;
   max-width: 500px;
   margin: 0 auto;
   padding: 0 !important;
-}
+} */
 
 .div1 {
   background: #ffffff;
@@ -258,10 +258,10 @@ ul {
   place-items: center;
 }
 
-li {
+/* li {
   list-style-type: none;
   line-height: 3rem
-}
+} */
 
 /* contact */
 
@@ -328,9 +328,10 @@ h2 {
   font-size: clamp(30px, 6vw, 60px);
   letter-spacing: 2px;
   text-align: center;
-  transform: scale(.95, 1);
 }
-
+h3{
+  text-align: center;
+}
 .links {
   display: flex;
   flex-wrap: wrap;
@@ -576,4 +577,13 @@ ol li{
 }
 .serviceh1{
   text-align: center;
+}
+
+.div6 li{
+  text-align: left;
+}
+.left-everything, .left-everything h2{
+  text-align:left;
+  margin: 0;
+  padding:0;
 }
