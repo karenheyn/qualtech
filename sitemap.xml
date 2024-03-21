@@ -15,16 +15,28 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://qualtechappliance.com/about.html</loc>
+        <loc>https://qualtechappliance.com/services/oven.html</loc>
         <lastmod>2024-03-20</lastmod>
         <changefreq>always</changefreq>
-        <priority>0.8</priority>
+        <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://qualtechappliance.com/index.html</loc>
+        <loc>https://qualtechappliance.com/services/dishwasher.html</loc>
         <lastmod>2024-03-20</lastmod>
         <changefreq>always</changefreq>
-        <priority>1</priority>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://qualtechappliance.com/services/refridgerator.html</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://qualtechappliance.com/services/stoves&ranges.html</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
     </url>
     <url>
         <loc>https://qualtechappliance.com/services/dryer.html</loc>
@@ -39,34 +51,22 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://qualtechappliance.com/services/stoves&ranges.html</loc>
+        <loc>https://qualtechappliance.com/about.html</loc>
         <lastmod>2024-03-20</lastmod>
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://qualtechappliance.com/services/refridgerator.html</loc>
+        <loc>https://qualtechappliance.com/index.html</loc>
         <lastmod>2024-03-20</lastmod>
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://qualtechappliance.com/services/dishwasher.html</loc>
-        <lastmod>2024-03-20</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://qualtechappliance.com/services/oven.html</loc>
-        <lastmod>2024-03-20</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>1</priority>
     </url>
     <url>
         <loc>https://qualtechappliance.com/about</loc>
         <lastmod>2024-03-20</lastmod>
         <changefreq>always</changefreq>
-        <priority>0.8</priority>
+        <priority>0.5</priority>
     </url>
     <url>
         <loc>https://qualtechappliance.com/about/serviceareas.html</loc>
