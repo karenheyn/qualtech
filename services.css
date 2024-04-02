@@ -51,10 +51,13 @@
 
 .review{
    padding: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 .review h2{
     color:rgb(217, 119, 6);
 }
-.review a:hover{
-    color:#263a53 !important;
+.review > * {
+    padding: 10px;
 }
