@@ -138,15 +138,15 @@
             <br>
             <form id="#form">
               <div class="form-item">
-                <input type="text" name="sender" required>
+                <input label="name" type="text" name="sender" required>
                 <label>Name:</label>
               </div>
               <div class="form-item">
-                <input id="subject" type="text" name="subject" required>
+                <input label="subject" id="subject" type="text" name="subject" required>
                 <label>Subject:</label>
               </div>
               <div class="form-item">
-                <textarea id="body" class="text" name="message" required></textarea>
+                <textarea label="message" id="body" class="text" name="message" required></textarea>
                 <label>Message:</label>
               </div>
               <button onclick="sendMail()" id="submit" class="submit-btn" type="submit">Send</button>  
