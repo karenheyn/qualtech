@@ -26,9 +26,39 @@ a:hover {
 .div4 h2 {
   color: #ffffff !important;
 }
+/* Header, footer */
+
+nav {
+  background-color: #ffffff;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-link, .dropdown-item {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+nav li {
+  padding: 0 20px;
+}
+
+nav li.active, nav li.active:before {
+  border-radius: 2px;
+}
+
+.navbar-collapse {
+flex-grow: 0 !important;
+}
 
 /*NEW NAV*/
-header {
+/* header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -97,6 +127,14 @@ header {
   object-fit: cover;
   display: block;
 }
+.nav li{
+  list-style:none;
+}
+.nav{
+  align-items: center;
+}
+
+
 
 @media (max-width: 1140px) {
   .header .menu .drawer {
@@ -165,7 +203,17 @@ header {
     backdrop-filter: blur(15px);
     left: 0 !important;
   }
-}
+  .nav{
+    display:block !important;
+  }
+  .sub-nav{
+    position:relative
+  }
+  .sub-nav li{
+    padding:0;
+    margin-left:0;
+  }
+} */
 
 /*END NAV*/
 

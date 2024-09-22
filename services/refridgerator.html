@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Qualtech | Fast and reliable Refridgerator repair in the philadelphia area">
+    <meta name="description" content="Professional refrigerator repair services in Philadelphia and the suburbs. Our skilled technicians provide quick, reliable repairs for all major brands, ensuring your fridge operates efficiently. Count on us for honest and efficient service to keep your food fresh and safe.">
     <title>Expert Refridgerator Repair near me | Qualtech Appliance Repair - Philadelphia</title>
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -28,6 +28,8 @@
     href="./servicepage.css"
     rel="stylesheet"
   />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -42,48 +44,68 @@
 
   gtag('config', 'G-3NGQG58FM5');
 </script>
-<header>
-    <div class="header">
-      <button class="menu-btn" aria-label="Open Menu">
-        <svg
-          height="24"
-          viewBox="0 0 24 24"
-          width="24"
-          xmlns="http://www.w3.org/2000/svg"
-          aria-label="Open Menu"
-          role="img"
-        >
-          <path d="M0 0h24v24H0z" fill="none"></path>
-          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
-        </svg>
-      </button>
-      <div class="logo"><a href="tel:267-602-0493">267-602-0493</a></div>
-      <nav class="menu">
-        <div class="drawer">
-          <button class="close-btn" aria-label="Close Menu">
-            <svg
-              height="24"
-              viewBox="0 0 24 24"
-              width="24"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-label="Close Menu"
-              role="img"
-            >
-              <path d="M0 0h24v24H0z" fill="none"></path>
-              <path
-                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              ></path>
-            </svg>
-          </button>
-          <a href="../index.html">Home</a>
-          <a href="../services.html">Services</a>
-          <a href="../index.html#FAQ">FAQ</a>
-          <a href="../about.html">About</a>
-          <a href="../index.html#contact">Contact</a>
-        </div>
-      </nav>
-  </header>
-
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand mr-5" href="tel:267-602-0493">267-602-0493</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#426691"></i></span>
+    </button>
+      <!-- menu -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              Home
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../about.html">
+              About
+            </a>
+          </li>
+                    <!-- dropdown menu -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Service Areas
+                      </a>
+                      <div class="dropdown-menu" id="custom-dropdown-menu">
+                        <a class="dropdown-item" href="../serviceareas/philadelphia.html">Philadephia County</a>
+                        <a class="dropdown-item" href="../serviceareas/philadelphiasuburbs.html">Philadelphia suburbs</a>
+                        <a class="dropdown-item" href="../serviceareas/montogomerycounty.html">Montgomery County</a>
+                      </div>
+                    </li>
+          <!-- dropdown menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     Services
+            </a>
+            <div class="dropdown-menu" id="custom-dropdown-menu">
+              <a class="dropdown-item" href="../services.html">Services home</a>
+              <a class="dropdown-item" href="../services/washer.html">Washing machine repair</a>
+              <a class="dropdown-item" href="../services/dryer.html">Dryer repair</a>
+              <a class="dropdown-item" href="../services/stovesandranges.html">Stoves & range repair</a>
+              <a class="dropdown-item" href="../services/refridgerator.html">Refridgerator repair</a>
+              <a class="dropdown-item" href="../services/oven.html">Oven repair</a>
+              <a class="dropdown-item" href="../services/dishwasher.html">Dishwasher repair</a>
+              <a class="dropdown-item" href="../about/brands.html">Brands</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html#faq">
+              FAQ
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- /menu -->
+    </div>
+  </nav>
+  <!-- /Navbar -->
   <body>
     </section>
     <section class="div2" id="Dryer repair">
@@ -124,3 +146,6 @@
     <script src="../script.js"></script>
 </body>
 </html>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>

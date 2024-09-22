@@ -11,6 +11,9 @@ h3{
 p{
     text-align: center;
 }
+.top a{
+    color: rgb(244, 167, 78) !important;
+}
 @media screen and (min-width: 650px) {
     ul {
       grid-template-columns: repeat(3, 1fr);
