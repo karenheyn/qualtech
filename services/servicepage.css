@@ -8,7 +8,7 @@
     align-self: center;
 }
 .flex-container img{
-    width:100%;
+    
     min-width: 300px;
 }
 @media screen and (max-width: 860px) {
