@@ -640,3 +640,11 @@ footer a {
   padding: 0 10px;
   color:#ffffff !important;
 }
+table{
+  text-align: left !important;
+  padding: 10px;
+}
+th, td {
+  border-bottom: 1px solid #ddd !important;
+  padding: 0 10px;
+}
