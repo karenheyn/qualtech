@@ -4,7 +4,8 @@
     padding: 20px;
 }
 .post{
-padding:20px 0;
+padding:20px;
+background:#6a9ac3;
 }
 .post a{
     color: rgb(244, 167, 78) !important;
