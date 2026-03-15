@@ -1,0 +1,11 @@
+.blog{
+     color: #ffffff;
+    background: #426691;
+    padding: 20px;
+}
+.post{
+padding:20px 0;
+}
+.post a{
+    color: rgb(244, 167, 78) !important;
+}
