@@ -1,16 +1,16 @@
-const details = document.querySelectorAll("details");
-const mainNav = document.getElementsByClassName(".nav");
-const subNav = document.getElementsByClassName(".sub-nav");
-details.forEach((targetDetail) => {
-  targetDetail.addEventListener("click", () => {
-    // Close all the details that are not targetDetail.
-    details.forEach((detail) => {
-      if (detail !== targetDetail) {
-        detail.removeAttribute("open");
-      }
-    });
-  });
-});
+// const details = document.querySelectorAll("details");
+// const mainNav = document.getElementsByClassName(".nav");
+// const subNav = document.getElementsByClassName(".sub-nav");
+// details.forEach((targetDetail) => {
+//   targetDetail.addEventListener("click", () => {
+//     // Close all the details that are not targetDetail.
+//     details.forEach((detail) => {
+//       if (detail !== targetDetail) {
+//         detail.removeAttribute("open");
+//       }
+//     });
+//   });
+// });
 
 const button = document.getElementById("submit");
 
