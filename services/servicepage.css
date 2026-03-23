@@ -12,6 +12,12 @@
     min-width: 300px;
 }
 
+h2, h3 {
+    text-align: left !important;
+}
+footer ul, footer p{
+    text-align: left;
+}
 @media screen and (max-width: 860px) {
     .flex-container {
       flex-wrap: wrap-reverse;
