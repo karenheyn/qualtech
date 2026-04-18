@@ -24,5 +24,5 @@ footer ul, footer p{
     }
 }
 .bottom h2{
-    text-align: center;
+    text-align: center !important;
 }
